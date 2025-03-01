@@ -32,6 +32,6 @@
     "complete-cli": "1.0.20",
     "complete-lint": "1.14.4",
     "complete-node": "3.1.8",
-    "typescript": "5.8.2"
+    "typescript": "5.7.3"
   }
 }
