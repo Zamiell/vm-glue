@@ -1,0 +1,37 @@
+{
+  "name": "vm-glue",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Zamiell/vm-glue",
+  "bugs": {
+    "url": "https://github.com/Zamiell/vm-glue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamiell/vm-glue.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Zamiell",
+  "type": "module",
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsx ./scripts/build.ts",
+    "lint": "tsx ./scripts/lint.ts",
+    "nuke": "complete-cli nuke",
+    "publish": "complete-cli publish",
+    "start": "tsx ./src/main.ts",
+    "update": "complete-cli update"
+  },
+  "devDependencies": {
+    "complete-cli": "1.0.20",
+    "complete-lint": "1.14.4",
+    "complete-node": "3.1.8",
+    "typescript": "5.8.2"
+  }
+}
