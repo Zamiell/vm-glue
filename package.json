@@ -26,6 +26,7 @@
     "update": "complete-cli update"
   },
   "dependencies": {
+    "complete-common": "1.3.0",
     "hono": "4.7.2",
     "zod": "3.24.2"
   },
