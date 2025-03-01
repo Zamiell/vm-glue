@@ -28,6 +28,9 @@
     "start": "tsx ./src/main.ts",
     "update": "complete-cli update"
   },
+  "dependencies": {
+    "hono": "4.7.2"
+  },
   "devDependencies": {
     "complete-cli": "1.0.20",
     "complete-lint": "1.14.4",
