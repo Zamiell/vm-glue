@@ -37,6 +37,8 @@ app.post("/browser", async (c) => {
 
   const { url } = result.data;
 
+  console.log(`Opening URL: ${url}`);
+
   // There is no need to wait for the command to complete before returning a response.
   // eslint-disable-next-line @typescript-eslint/no-floating-promises
   $`start chrome ${url}`;
