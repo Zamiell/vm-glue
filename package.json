@@ -32,8 +32,8 @@
   },
   "devDependencies": {
     "@types/bun": "^1.2.4",
-    "complete-cli": "1.0.20",
-    "complete-lint": "1.14.4",
+    "complete-cli": "1.0.24",
+    "complete-lint": "1.14.5",
     "complete-node": "3.1.8",
     "typescript": "5.7.3"
   }
