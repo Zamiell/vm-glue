@@ -29,9 +29,11 @@
     "update": "complete-cli update"
   },
   "dependencies": {
-    "hono": "4.7.2"
+    "hono": "4.7.2",
+    "zod": "3.24.2"
   },
   "devDependencies": {
+    "@types/bun": "^1.2.4",
     "complete-cli": "1.0.20",
     "complete-lint": "1.14.4",
     "complete-node": "3.1.8",
