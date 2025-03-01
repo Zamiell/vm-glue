@@ -11,6 +11,9 @@ const config = {
   ],
   ignoreBinaries: [
     "tsx", // This is provided by "complete-lint".
+    // @template-customization-start
+    "start",
+    // @template-customization-end
   ],
   ignoreDependencies: [
     "complete-lint", // This is a linting meta-package.

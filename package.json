@@ -1,8 +1,7 @@
 {
   "name": "vm-glue",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "1.0.0",
+  "description": "Connection between a virtual machine and host using an HTTP server",
   "homepage": "https://github.com/Zamiell/vm-glue",
   "bugs": {
     "url": "https://github.com/Zamiell/vm-glue/issues"
@@ -15,17 +14,15 @@
   "author": "Zamiell",
   "type": "module",
   "files": [
-    "dist",
+    "src",
     "LICENSE",
     "package.json",
     "README.md"
   ],
   "scripts": {
-    "build": "tsx ./scripts/build.ts",
     "lint": "tsx ./scripts/lint.ts",
     "nuke": "complete-cli nuke",
     "publish": "complete-cli publish",
-    "start": "tsx ./src/main.ts",
     "update": "complete-cli update"
   },
   "dependencies": {
